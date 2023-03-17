@@ -1,0 +1,33 @@
+name: eQTLGenPhase2Env
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+  - r
+  - anaconda
+dependencies:
+  - conda-forge::python=2.7.15
+  - conda-forge::setuptools=41.0.1
+  - bioconda::vcftools=0.1.14
+  - bioconda::bcftools=1.9
+  - bioconda::tabix=0.2.6
+  - conda-forge::gcc_linux-64=7.3.0
+  - conda-forge::gfortran_linux-64=7.3.0
+  - conda-forge::r-base=3.6.1
+  - conda-forge::r-data.table=1.12.2
+  - conda-forge::r-stringr=1.4.0
+  - bioconda::java-jdk=8.0.112
+  - conda-forge::gawk=5.0.1
+  - conda-forge::coreutils=8.31
+  - conda-forge::bitarray=1.0.1
+  - conda-forge::Cython=0.29.13
+  - conda-forge::h5py=2.10.0
+  - conda-forge::numpy=1.16.2=py27_blas_openblash1522bff_0
+  - conda-forge::pandas=0.24.2
+  - conda-forge::scipy=1.2.1=py27_blas_openblash1522bff_0
+  - conda-forge::pytables=3.5.2
+  - conda-forge::natsort=6.2.0
+  - conda-forge::pycryptodomex=3.9.7=py27h516909a_0
+  - conda-forge::pyarrow=0.16.0
+  - conda-forge::memory_profiler=0.52.0
+prefix: ./eQTLGenPhase2Env
